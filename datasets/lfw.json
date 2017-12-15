@@ -1,0 +1,21 @@
+{
+  "name":"Labeled Faces in Wild"
+  "process_type": "V",
+  "create": [
+    {
+      "MODEL": "Video",
+      "spec": {
+        "name": "LFW"
+      },
+      "tasks": [
+        {
+          "operation": "perform_import",
+          "video_id": "__pk__",
+          "arguments": {
+            "path": "https://www.dropbox.com/s/6nn84z4yzy47vuh/LFW.dva_export.zip"
+          }
+        }
+      ]
+    }
+  ]
+}
