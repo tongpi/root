@@ -1,0 +1,21 @@
+{
+  "name":"A drive through Paris",
+  "process_type": "V",
+  "create": [
+    {
+      "MODEL": "Video",
+      "spec": {
+        "name": "Paris"
+      },
+      "tasks": [
+        {
+          "operation": "perform_import",
+          "video_id": "__pk__",
+          "arguments": {
+            "path": "https://www.dropbox.com/s/a7qf1f3j8vp4nuh/Paris.dva_export.zip"
+          }
+        }
+      ]
+    }
+  ]
+}
