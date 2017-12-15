@@ -1,0 +1,21 @@
+{
+  "process_type": "V",
+  "create": [
+    {
+      "MODEL": "DeepModel",
+      "spec": {
+        "name": "license plate detector",
+        "url": "https://www.dropbox.com/s/ztsl59pxgzvd14k/1.dva_detector.zip",
+        "model_filename": "1.dva_detector.zip",
+        "mode": "T",
+      },
+      "tasks": [{
+        "operation":"perform_model_import",
+        "arguments":{
+          "pk":"__pk__",
+          "model_type":"A"
+        }
+      }]
+    }
+  ]
+}
