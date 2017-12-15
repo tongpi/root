@@ -1,0 +1,21 @@
+{
+  "name":"MSCOCO",
+  "process_type": "V",
+  "create": [
+    {
+      "MODEL": "Video",
+      "spec": {
+        "name": "MSCOCO"
+      },
+      "tasks": [
+        {
+          "operation": "perform_import",
+          "video_id": "__pk__",
+          "arguments": {
+            "path": "s3://visualdatanetwork/coco_train.dva_export.zip"
+          }
+        }
+      ]
+    }
+  ]
+}
