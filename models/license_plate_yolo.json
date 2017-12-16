@@ -7,7 +7,7 @@
         "name": "license plate detector",
         "url": "https://www.dropbox.com/s/ztsl59pxgzvd14k/1.dva_detector.zip",
         "model_filename": "1.dva_detector.zip",
-        "mode": "T",
+        "mode": "T"
       },
       "tasks": [{
         "operation":"perform_model_import",
