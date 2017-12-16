@@ -1,5 +1,6 @@
 {
   "name":"Labeled Faces in Wild",
+  "description": "Labeled Faces in Wild dataset",
   "process_type": "V",
   "create": [
     {
