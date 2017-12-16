@@ -1,8 +1,25 @@
+
 {
-  "model_type": "indexer",
-  "name": "sphereface",
-  "url": "https://www.dropbox.com/s/x27ye1v9l3ivn0h/sphereface_model.caffemodel",
-  "filename": "sphereface_model.caffemodel",
-  "shasum": "8a801f716fc2d23275d3ed7215f7732c5af385e7",
-  "mode": "C"
+  "process_type": "V",
+  "description": "Sphereface face indexing model",
+  "create": [
+    {
+      "MODEL": "DeepModel",
+      "spec": {
+        "model_type": "indexer",
+        "name": "location_net",
+        "url": "https://www.dropbox.com/s/x27ye1v9l3ivn0h/sphereface_model.caffemodel",
+        "model_filename": "sphereface_model.caffemodel",
+        "shasum": "8a801f716fc2d23275d3ed7215f7732c5af385e7",
+        "mode": "C"
+      },
+      "tasks": [{
+        "operation":"perform_model_import",
+        "arguments":{
+          "pk":"__pk__",
+          "model_type":"A"
+        }
+      }]
+    }
+  ]
 }

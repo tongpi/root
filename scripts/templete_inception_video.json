@@ -1,5 +1,6 @@
 {
   "process_type": "V",
+  "description":"Index frames using inception on a video",
   "tasks": [
           {
             "operation": "perform_indexing",

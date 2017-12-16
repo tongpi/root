@@ -1,6 +1,6 @@
 {
   "name":"MSCOCO_Sample",
-  "description": "MSCOCO Sample",
+  "description": "MSCOCO Sample containing 500 images",
   "process_type": "V",
   "create": [
     {

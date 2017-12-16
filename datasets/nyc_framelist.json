@@ -1,13 +1,13 @@
 {
   "name": "NYC Frame list from YFCC",
-  "description": "Framelist import and processing example",
+  "description": "Frame list import and processing example",
   "process_type": "V",
   "create": [
     {
       "MODEL": "Video",
       "spec": {
         "name": "NYC images",
-        "dataset":"True"
+        "dataset": "True"
       },
       "tasks": [
         {
@@ -21,6 +21,28 @@
                 "arguments": {
                   "frames_batch_size": 100,
                   "next_tasks": [
+                    {
+                      "operation": "perform_detection",
+                      "arguments": {
+                        "filters": {
+                          "event_id": "__parent_event__"
+                        },
+                        "detector": "textbox",
+                        "target": "frames",
+                        "next_tasks": [
+                          {
+                            "operation": "perform_analysis",
+                            "arguments": {
+                              "analyzer": "crnn",
+                              "target": "regions",
+                              "filters": {
+                                "event_id": "__parent_event__"
+                              }
+                            }
+                          }
+                        ]
+                      }
+                    },
                     {
                       "operation": "perform_detection",
                       "arguments": {
