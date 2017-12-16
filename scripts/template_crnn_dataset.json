@@ -1,5 +1,6 @@
 {
   "process_type": "V",
+  "description": "Perform text recognition on entire frames in a dataset",
   "tasks": [
           {
             "operation": "perform_analysis",
