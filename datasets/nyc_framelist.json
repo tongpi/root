@@ -6,7 +6,7 @@
     {
       "MODEL": "Video",
       "spec": {
-        "name": "LFW",
+        "name": "NYC images",
         "dataset":"True"
       },
       "tasks": [
