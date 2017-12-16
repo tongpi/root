@@ -1,5 +1,6 @@
 {
   "name":"MSCOCO",
+  "description": "MSCOCO",
   "process_type": "V",
   "create": [
     {

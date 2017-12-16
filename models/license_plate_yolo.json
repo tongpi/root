@@ -1,5 +1,6 @@
 {
   "process_type": "V",
+  "description": "License plate detector",
   "create": [
     {
       "MODEL": "DeepModel",

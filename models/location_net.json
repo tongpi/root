@@ -1,5 +1,6 @@
 {
   "process_type": "V",
+  "description": "Loction from image prediction model",
   "create": [
     {
       "MODEL": "DeepModel",

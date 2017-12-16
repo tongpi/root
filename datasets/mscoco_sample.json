@@ -1,5 +1,6 @@
 {
-  "name":"Labeled Faces in Wild",
+  "name":"MSCOCO_Sample",
+  "description": "MSCOCO Sample",
   "process_type": "V",
   "create": [
     {

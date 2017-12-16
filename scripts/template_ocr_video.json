@@ -1,4 +1,5 @@
 {
+  "description": "Perform OCR on a video",
   "tasks": [
     {
       "operation": "perform_detection",
