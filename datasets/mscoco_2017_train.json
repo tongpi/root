@@ -1,0 +1,50 @@
+{
+  "name": "MSCOCO_2017_Train",
+  "description": "2017 MSCOCO training set",
+  "process_type": "V",
+  "create": [
+    {
+      "MODEL": "Video",
+      "spec": {
+        "name": "2017 MSCOCO training set",
+        "dataset": true
+      },
+      "tasks": [
+        {
+          "operation": "perform_import",
+          "video_id": "__pk__",
+          "arguments": {
+            "path": "http://images.cocodataset.org/zips/train2017.zip",
+            "next_tasks": [
+              {
+                "operation": "perform_dataset_extraction",
+                "arguments": {
+                  "next_tasks": [
+                    {
+                      "operation": "perform_region_import",
+                      "arguments": {
+                        "path": "https://www.dropbox.com/s/1h0xwdtcvdme9xv/coco_train2017_keypoints_regions.gz"
+                      }
+                    },
+                    {
+                      "operation": "perform_region_import",
+                      "arguments": {
+                        "path": "https://www.dropbox.com/s/l0zmpks22456zak/coco_train2017_captions_regions.gz"
+                      }
+                    },
+                    {
+                      "operation": "perform_region_import",
+                      "arguments": {
+                        "path": "https://www.dropbox.com/s/yulyghbhrqhjdw2/coco_train2017_instances_regions.gz"
+                      }
+                    }                    
+                  ]
+                }
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}
