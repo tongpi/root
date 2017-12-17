@@ -1,0 +1,31 @@
+{
+  "name":"MSCOCO_tiny_test",
+  "description": "Tiny MSCOCO dataset",
+  "process_type": "V",
+  "create": [
+    {
+      "MODEL": "Video",
+      "spec": {
+        "name": "MSCOCO_tiny_test",
+        "dataset": true
+      },
+      "tasks": [
+        {
+          "operation": "perform_import",
+          "video_id": "__pk__",
+          "arguments": {
+            "path": "https://www.dropbox.com/s/iwarqv21wm95ky2/coco_train2017_ci.zip",
+            "next_tasks":[
+            {
+            "operation": "perform_region_import",
+            "arguments": {
+              "path": "https://www.dropbox.com/s/0swl3rnjshydpdb/coco_ci_regions.json"
+            }
+            }
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}
