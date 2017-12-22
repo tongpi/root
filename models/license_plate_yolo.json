@@ -6,17 +6,22 @@
       "MODEL": "DeepModel",
       "spec": {
         "name": "license plate detector",
-        "url": "https://www.dropbox.com/s/ztsl59pxgzvd14k/1.dva_detector.zip",
-        "model_filename": "1.dva_detector.zip",
-        "mode": "T"
-      },
-      "tasks": [{
-        "operation":"perform_model_import",
-        "arguments":{
-          "pk":"__pk__",
-          "model_type":"A"
+        "mode": "T",
+        "model_type": "D",
+        "detector_type": "Y",
+        "files": {
+          "url": "https://www.dropbox.com/s/ztsl59pxgzvd14k/1.dva_detector.zip",
+          "filename": "model.zip"
         }
-      }]
+      },
+      "tasks": [
+        {
+          "operation": "perform_model_import",
+          "arguments": {
+            "pk": "__pk__"
+          }
+        }
+      ]
     }
   ]
 }
