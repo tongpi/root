@@ -15,11 +15,11 @@
           "video_id": "__pk__",
           "arguments": {
             "path": "https://www.dropbox.com/s/iwarqv21wm95ky2/coco_train2017_ci.zip",
-            "next_tasks": [
+            "map": [
               {
                 "operation": "perform_dataset_extraction",
                 "arguments": {
-                  "next_tasks": [
+                  "map": [
                     {
                       "operation": "perform_region_import",
                       "arguments": {

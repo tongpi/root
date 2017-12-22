@@ -15,12 +15,12 @@
           "video_id": "__pk__",
           "arguments": {
             "path": "https://www.dropbox.com/s/ok1rshef20ss161/framelist.gz",
-            "next_tasks": [
+            "map": [
               {
                 "operation": "perform_frame_download",
                 "arguments": {
                   "frames_batch_size": 100,
-                  "next_tasks": [
+                  "map": [
                     {
                       "operation": "perform_detection",
                       "arguments": {
@@ -29,7 +29,7 @@
                         },
                         "detector": "textbox",
                         "target": "frames",
-                        "next_tasks": [
+                        "map": [
                           {
                             "operation": "perform_analysis",
                             "arguments": {
@@ -50,7 +50,7 @@
                           "event_id": "__parent_event__"
                         },
                         "detector": "coco",
-                        "next_tasks": [
+                        "map": [
                           {
                             "operation": "perform_indexing",
                             "arguments": {
@@ -73,7 +73,7 @@
                         "filters": {
                           "event_id": "__parent_event__"
                         },
-                        "next_tasks": [
+                        "map": [
                           {
                             "operation": "perform_indexing",
                             "arguments": {

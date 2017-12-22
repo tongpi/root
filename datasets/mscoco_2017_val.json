@@ -15,11 +15,11 @@
           "video_id": "__pk__",
           "arguments": {
             "path": "http://images.cocodataset.org/zips/val2017.zip",
-            "next_tasks": [
+            "map": [
               {
                 "operation": "perform_dataset_extraction",
                 "arguments": {
-                  "next_tasks": [
+                  "map": [
                     {
                       "operation": "perform_region_import",
                       "arguments": {

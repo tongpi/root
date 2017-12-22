@@ -8,7 +8,7 @@
         "segments_batch_size": 5,
         "detector": "textbox",
         "target": "frames",
-        "next_tasks": [
+        "map": [
           {
             "operation": "perform_analysis",
             "arguments": {
