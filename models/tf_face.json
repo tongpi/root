@@ -20,7 +20,7 @@
         "class_index_to_string": {
           "1": "face"
         },
-        "name": "face detector",
+        "name": "TF face detector",
         "algorithm": "mobilenet_ssd",
         "detector_type": "T",
         "mode": "T",
