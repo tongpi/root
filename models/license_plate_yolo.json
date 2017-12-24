@@ -3,7 +3,7 @@
   "description": "License plate detector",
   "create": [
     {
-      "MODEL": "DeepModel",
+      "MODEL": "TrainedModel",
       "spec": {
         "name": "license plate detector",
         "mode": "T",

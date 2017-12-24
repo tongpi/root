@@ -4,7 +4,7 @@
   "description": "Sphereface face indexing model",
   "create": [
     {
-      "MODEL": "DeepModel",
+      "MODEL": "TrainedModel",
       "spec": {
         "model_type": "indexer",
         "name": "location_net",

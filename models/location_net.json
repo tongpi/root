@@ -3,7 +3,7 @@
   "description": "Loction from image prediction model",
   "create": [
     {
-      "MODEL": "DeepModel",
+      "MODEL": "TrainedModel",
       "spec": {
         "name": "location_net",
         "url": "https://s3.amazonaws.com/mmcommons-tutorial/models/RN101-5k500-0012.params",

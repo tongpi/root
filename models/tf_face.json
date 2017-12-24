@@ -1,7 +1,7 @@
 {
   "create": [
     {
-      "MODEL": "DeepModel",
+      "MODEL": "TrainedModel",
       "tasks": [
         {
           "operation": "perform_model_import",
