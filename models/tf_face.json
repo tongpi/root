@@ -1,0 +1,37 @@
+{
+  "process_type": "V",
+  "description": "Face detector using TF object detection api by https://github.com/yeephycho/tensorflow-face-detection",
+  "create": [
+    {
+      "MODEL": "DeepModel",
+      "spec":    {
+        "model_type": "detector",
+        "name": "face detector",
+        "detector_type": "T",
+        "algorithm": "mobilenet_ssd",
+        "filename": "face.pb",
+        "files":[
+            {
+                "url": "https://www.dropbox.com/s/4ak5dimhybocaqr/face.pb",
+                "filename": "face.pb"
+
+            }
+        ],
+        "mode": "T",
+        "class_index_to_string": {
+            "1": "face"
+        }
+      },
+      "tasks": [
+        {
+          "operation": "perform_model_import",
+          "arguments": {
+            "pk": "__pk__"
+          }
+        }
+      ]
+    }
+  ]
+}
+
+
