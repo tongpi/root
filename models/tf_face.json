@@ -17,8 +17,10 @@
             "filename": "face.pb"
           }
         ],
-        "class_index_to_string": {
-          "1": "face"
+        "arguments": {
+          "class_index_to_string": {
+            "1": "face"
+          }
         },
         "name": "TF face detector",
         "algorithm": "mobilenet_ssd",
