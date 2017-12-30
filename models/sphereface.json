@@ -6,7 +6,7 @@
     {
       "MODEL": "TrainedModel",
       "spec": {
-        "model_type": "indexer",
+        "model_type": "I",
         "name": "location_net",
         "url": "https://www.dropbox.com/s/x27ye1v9l3ivn0h/sphereface_model.caffemodel",
         "model_filename": "sphereface_model.caffemodel",
