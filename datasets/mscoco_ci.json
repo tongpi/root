@@ -14,7 +14,7 @@
           "operation": "perform_import",
           "video_id": "__pk__",
           "arguments": {
-            "path": "https://www.dropbox.com/s/iwarqv21wm95ky2/coco_train2017_ci.zip",
+            "path": "http://192.168.200.106/download/coco_train2017_ci.zip",
             "map": [
               {
                 "operation": "perform_dataset_extraction",
@@ -23,7 +23,7 @@
                     {
                       "operation": "perform_region_import",
                       "arguments": {
-                        "path": "https://www.dropbox.com/s/0swl3rnjshydpdb/coco_ci_regions.json"
+                        "path": "http://192.168.200.106/download/coco_ci_regions.json"
                       }
                     }
                   ]

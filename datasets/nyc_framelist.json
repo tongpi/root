@@ -14,7 +14,7 @@
           "operation": "perform_import",
           "video_id": "__pk__",
           "arguments": {
-            "path": "https://www.dropbox.com/s/ok1rshef20ss161/framelist.gz",
+            "path": "http://192.168.200.106/download/framelist.gz",
             "map": [
               {
                 "operation": "perform_frame_download",

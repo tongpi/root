@@ -14,7 +14,7 @@
           "operation": "perform_import",
           "video_id": "__pk__",
           "arguments": {
-            "path": "http://images.cocodataset.org/zips/val2017.zip",
+            "path": "http://192.168.200.106/download/val2017.zip",
             "map": [
               {
                 "operation": "perform_dataset_extraction",
@@ -23,19 +23,19 @@
                     {
                       "operation": "perform_region_import",
                       "arguments": {
-                        "path": "https://www.dropbox.com/s/6hnbh5bhgeeoswd/coco_val2017_keypoints_regions.gz"
+                        "path": "http://192.168.200.106/download/coco_val2017_keypoints_regions.gz"
                       }
                     },
                     {
                       "operation": "perform_region_import",
                       "arguments": {
-                        "path": "https://www.dropbox.com/s/ev6dlts686xskx4/coco_val2017_instances_regions.gz"
+                        "path": "http://192.168.200.106/download/coco_val2017_instances_regions.gz"
                       }
                     },
                     {
                       "operation": "perform_region_import",
                       "arguments": {
-                        "path": "https://www.dropbox.com/s/tbf96ibf0iqhvt3/coco_val2017_captions_regions.gz"
+                        "path": "http://192.168.200.106/download/coco_val2017_captions_regions.gz"
                       }
                     }                    
                   ]

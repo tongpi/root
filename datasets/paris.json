@@ -13,7 +13,7 @@
           "operation": "perform_import",
           "video_id": "__pk__",
           "arguments": {
-            "path": "https://www.dropbox.com/s/a7qf1f3j8vp4nuh/Paris.dva_export.zip"
+            "path": "http://192.168.200.106/download/Paris.dva_export.zip"
           }
         }
       ]
