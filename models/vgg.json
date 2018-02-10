@@ -13,7 +13,7 @@
       "spec": {
         "files": [
           {
-            "url": "http://192.168.200.106/download/vgg.pb",
+            "url": "http://192.168.15.100:8080/download/vgg.pb",
             "filename": "vgg.pb"
           }
         ],
